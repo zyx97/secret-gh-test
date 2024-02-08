@@ -6,7 +6,7 @@ import web3
 from web3 import Web3
 from solc import compile_source
 from web3.contract import ConciseContract
-
+123
 class PublicSmartContract(object):
     def __init__(self, account_index=0):
         self.get_web3_instance(account_index)
